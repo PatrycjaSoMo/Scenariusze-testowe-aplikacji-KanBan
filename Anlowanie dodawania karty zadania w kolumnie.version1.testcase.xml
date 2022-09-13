@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="27998" name="Anlowanie dodawania karty zadania w kolumnie">
+	<node_order><![CDATA[1012]]></node_order>
+	<externalid><![CDATA[13]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Weryfikacja poprawnego anulowania dodawania karty zadania w kolumnie za pomacą przycisku &quot;Anuluj&quot;.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Użytkownik znajduje sie na stronie gł&oacute;wnej aplikacji http://kanbanboard.pl/</p>
+
+<p>Na tablicy znajduje się dowolna ilość kolumn.</p>
+
+<p>Przyciski &quot;add task&quot; w kolumnach są widoczne.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;ad task&quot; w kolumnie &quot;To Do&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Kliknij &quot;Anuluj&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>Karta z nowym zadaniem nie zostanie utworzona.</li>
+	<li>Operacja dodawania karty zostanie przerwana, a widok tablicy nie zmieni się.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Powt&oacute;rz ktoki 1-2 dla każdej kolumny.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>W żadnej kolumnie nie zostanie utwożona karta z nowym zadaniem.</li>
+	<li>Po anulowaniu dodawania karty&nbsp; z zadaniem widok tablicy nie zmieni się.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

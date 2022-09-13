@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="28081" name="Wklejanie tekstu do karty zadania.">
+	<node_order><![CDATA[1025]]></node_order>
+	<externalid><![CDATA[26]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Weryfikajcja możliwości wklejenia skopiowanego tekstu z innego źr&oacute;dła do treści karty zadania.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Użytkownik jest na stronie gł&oacute;wnej aplikacji http://kanbanboard.pl/</p>
+
+<p>Na tablicy widoczne są kolumny.</p>
+
+<p>W kolumnach widoczny jest przycisk &quot;add task&quot;.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Zaznacz fragment dowolnego tekstu z zwenątrznej strony www lub dokumentu.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Przejdź na stronę http://kanbanboard.pl/</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;add task&quot; w dowolnej kolumnie.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Wklej kopiowany tekst do treści tworzonej karty.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;ok&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>W wybranej kolumnie zostanie utworzona nowa karta zadania.</li>
+	<li>Tekst na karcie zadanie będzie taki sam jak tekst kopiowany.</li>
+	<li>Treść karty zadania będzie czytelna.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Powt&oacute;rz kroki 3-5 w każdej kolumnie.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>W wybranej kolumnie zostanie utworzona nowa karta zadania.</li>
+	<li>Tekst na karcie zadanie będzie taki sam jak tekst kopiowany.</li>
+	<li>Treść karty zadania będzie czytelna.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

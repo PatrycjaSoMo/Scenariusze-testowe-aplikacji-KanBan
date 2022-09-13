@@ -1,0 +1,1 @@
+# Scenariusze-testowe-aplikacji-KanBan

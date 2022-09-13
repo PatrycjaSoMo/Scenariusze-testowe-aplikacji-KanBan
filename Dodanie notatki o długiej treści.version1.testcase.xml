@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="28009" name="Dodanie notatki o długiej treści">
+	<node_order><![CDATA[1014]]></node_order>
+	<externalid><![CDATA[15]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Weryfikacja poprawności dodawania notatki o długiej treści do karty zadania w kolumnach.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Urzytkownik znajduje się na stronie gł&oacute;wnej aplikacji http://kanbanboard.pl/</p>
+
+<p>Na tablicy znajduje się minimuj jedna kolumna.</p>
+
+<p>Przycisk &quot;add task&quot; jest widoczny.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;add task&quot; w kolumnie &quot;To Do&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Wprowadź długi tekst w karcie zadania, np &quot; <strong>Testowanie oprogramowania</strong>&nbsp;&ndash; proces związany z wytwarzaniem&nbsp;<a href="https://pl.wikipedia.org/wiki/Oprogramowanie" style="text-decoration: none; color: rgb(6, 69, 173); background: none rgb(255, 255, 255); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;" title="Oprogramowanie">oprogramowania</a>. Jest to część proces&oacute;w zarządzania&nbsp;<a href="https://pl.wikipedia.org/wiki/Jako%C5%9B%C4%87_oprogramowania" style="text-decoration: none; color: rgb(6, 69, 173); background: none rgb(255, 255, 255); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;" title="Jakość oprogramowania">jakością oprogramowania</a>. Testowanie ma na celu&nbsp;<a href="https://pl.wikipedia.org/wiki/Weryfikacja_i_walidacja_(oprogramowanie)" style="text-decoration: none; color: rgb(6, 69, 173); background: none rgb(255, 255, 255); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;" title="Weryfikacja i walidacja (oprogramowanie)">weryfikację oraz walidację</a>&nbsp;oprogramowania. Weryfikacja oprogramowania pozwala skontrolować, czy wytwarzane oprogramowanie jest zgodne ze specyfikacją. Walidacja sprawdza, czy oprogramowanie jest zgodne z oczekiwaniami&nbsp;<a href="https://pl.wikipedia.org/wiki/U%C5%BCytkownik_komputera" style="text-decoration: none; color: rgb(6, 69, 173); background: none rgb(255, 255, 255); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;" title="Użytkownik komputera">użytkownika</a>. Testowanie oprogramowania może być wdrożone w dowolnym momencie wytwarzania oprogramowania (w zależności od stosowanej metody). W podejściu kaskadowym zgodnym z&nbsp;<a href="https://pl.wikipedia.org/wiki/Model_V" style="text-decoration: none; color: rgb(6, 69, 173); background: none rgb(255, 255, 255); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;" title="Model V">modelem V</a>&nbsp;wysiłek zespołu testerskiego zaczyna się wraz z definicją wymagań i jest kontynuowany po zaimplementowaniu zdefiniowanych wymagań. Nowsze metody wytwarzania oprogramowania (np.&nbsp;<a class="mw-redirect" href="https://pl.wikipedia.org/wiki/Metody_zwinne" style="text-decoration: none; color: rgb(6, 69, 173); background: none rgb(255, 255, 255); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;" title="Metody zwinne">metody zwinne</a>) rozkładają wysiłek testerski r&oacute;wnomiernie na poszczeg&oacute;lne&nbsp;<a href="https://pl.wikipedia.org/wiki/Iteracja" style="text-decoration: none; color: rgb(6, 69, 173); background: none rgb(255, 255, 255); font-family: sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;" title="Iteracja">iteracje</a>&nbsp;i skupiają się na testach jednostkowych oraz automatyzacji weryfikacji wykonywanych przez członk&oacute;w zespołu<a href="https://pl.wikipedia.org/wiki/Testowanie_oprogramowania#cite_note-1" style="text-decoration: none; color: rgb(6, 69, 173); background: none; white-space: nowrap;">[1]</a>. &quot;</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;ok&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>W kolumnie &quot;To Do&quot; pojawi się karta z zadaniem.</li>
+	<li>Tekst w karcie będzie widoczny w całości lub z prawej strony karty będzie znajdował się suwak do przewijania treści.</li>
+	<li>Tekst będzie czytelny.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Powt&oacute;rz kroki 1-3 dla każdej kolumny.</p>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>W kolumnie pojawi się karta z zadaniem.</li>
+	<li>Tekst w karcie będzie widoczny w całości lub z prawej strony karty będzie znajdował się suwak do przewijania treści.</li>
+	<li>Tekst będzie czytelny.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="28042" name="Dodanie kart o tej samej treści.">
+	<node_order><![CDATA[1019]]></node_order>
+	<externalid><![CDATA[20]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Weryfikacja poprawnego dodawania kart o tej samej treści w kolumnach.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Użytkownik znajduje się na stronie gł&oacute;wnej aplikacji http://kanbanboard.pl/</p>
+
+<p>Na tablisy znajdują się kolumny.</p>
+
+<p>W kolumnach znajdują się przyciski &quot;add task&quot;.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;add task&quot; w kolumnie &quot;To Do&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Wprowadź tekst notatni, np &quot;Zadanie dodatkowe&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;ok&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Powt&oacute;rz kroki 1-3 w tej samej kolumnie jeszcze dwukrotnie.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Powt&oacute;rz kroki 1-3 w innych kolumnach jeszcze dwukrotnie.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>Za każdym razem zostanie utworzona nowa karta z tą samą treścią podaną przez użytkownika w odpowiedniej kolumnie.</li>
+	<li>Karty będą dodawane w d&oacute;ł, pod już istniejącymi kartami.</li>
+	<li>Tekst w kartach będzie czytelny.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

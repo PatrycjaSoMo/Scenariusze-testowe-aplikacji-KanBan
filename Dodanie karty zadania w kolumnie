@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="27968" name="Dodanie karty zadania w kolumnie &quot;To Do&quot; z własną notatką.">
+	<node_order><![CDATA[1007]]></node_order>
+	<externalid><![CDATA[8]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Weryfikacja poprawnego dodawania nowego zadania w kolumnie &quot;To Do&quot; z wprowadzeniem własnej treści w karcie.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Użytkownik znajduje się na stronie gł&oacute;wnej aplikacji http://kanbanboard.pl/</p>
+
+<p>Kolumna &quot;To Do&quot; jest umieszczona na tablicy.</p>
+
+<p>Przycisk &quot;add task&quot; w kolumnie &quot;To Do&quot; jest widoczny.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;add task&quot; w kolumnie &quot;To Do&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Wprowadź tresć zadania np. &quot;Przygotować sprawodzanie z postęp&oacute;w pracy nad projektem Kanban Board wersja 6.02&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;ok&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>W kolumnie &quot;To Do&quot; zostanie utworzona karta z zadaniem o wprowadzonej treści.</li>
+	<li>Tekst w karcie notatki będzie w całości czytelny.</li>
+	<li>Teskt w karcie nie będzie wychodził po za obszar karty.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

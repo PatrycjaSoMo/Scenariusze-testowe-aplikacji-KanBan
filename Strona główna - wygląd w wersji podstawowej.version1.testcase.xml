@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="27987" name="Strona główna - wygląd w wersji podstawowej">
+	<node_order><![CDATA[1010]]></node_order>
+	<externalid><![CDATA[11]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Weryfikacja podstawowego wyglądu strony, ilości kolumn, przycisk&oacute;w funkcyjnych.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Użytkownik znajduje się na stronie gł&oacute;wnej aplikacji http://kanbanboard.pl/</p>
+
+<p>Aplikacja jest w trybie podstawowym, ustawienia domyślne.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Wejdź na stronę http://kanbanboard.pl/</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>Aplikacja jest w trybie podstawowym.</li>
+	<li>W tle jest widoczna tablica korkowa.</li>
+	<li>W kolumnie &quot;To Do&quot; znajduje się jedno zadanie opisane &quot;new task&quot;.</li>
+	<li>Na tablicy znajduje się przycisk dodawania nowej kolumny &quot;add new column&quot;.</li>
+	<li>W każdej kolumnie znajduje się przycisk dodawania nowego zadania &quot;add task&quot;.</li>
+	<li>Wyświetlają się trzy kolumny o nazwach:</li>
+</ol>
+
+<ul>
+	<li>To do (Do zrobienia),</li>
+	<li>Doing&nbsp; (W trakcie)</li>
+	<li>Done (Zrobione)</li>
+</ul>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

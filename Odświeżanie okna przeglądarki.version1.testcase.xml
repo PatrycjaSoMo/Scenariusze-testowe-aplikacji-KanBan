@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="28098" name="Odświeżanie okna przeglądarki">
+	<node_order><![CDATA[1026]]></node_order>
+	<externalid><![CDATA[27]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Weryfikacja przypadkowego kliknięcia przysisku odświeżania okna przeglądarki w czasie pracy z kartami zadań.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Użytkownik jest na stronie gł&oacute;wniej aplikacji http://kanbanboard.pl/</p>
+
+<p>Na tablicy widoczne są kolumny.</p>
+
+<p>W kolumnach umieszczine są karty zadań.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;add task&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij ikonę odświeżania strony.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>Zostanie wyświetlony komunikat z pytaniem o kontynuację odświeżania strony z informacją, że po kliknięciu zatwierdzenia wszystkie kolumny i karty zadań zostaną trwale utracone.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

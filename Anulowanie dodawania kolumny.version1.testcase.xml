@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="27946" name="Anulowanie dodawania kolumny">
+	<node_order><![CDATA[1002]]></node_order>
+	<externalid><![CDATA[3]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Przerwanie procesu dodawania kolumny za pomoca opcji &quot;Anuluj&quot;.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Użytkownik znajduje się na stronie g&oacute;łnej aplikacji http://kanbanboard.pl/</p>
+
+<p>Przycisk &quot;Add new column&quot; jest widoczny.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;Add new column&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;Anuluj&quot; w oknie &quot;popup&quot; tworzenia kolumny.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>Kolumna nie zostanie utworzona.</li>
+	<li>Na tablicy będą wyświetlać się tylko wcześniej utworzone kolumny.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

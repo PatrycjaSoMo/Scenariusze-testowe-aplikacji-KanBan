@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="28016" name="Maksymalna ilość kolumn">
+	<node_order><![CDATA[1015]]></node_order>
+	<externalid><![CDATA[16]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Weryfikacja maksymalnej ilości kolumn na tablicy.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Użytkownik znajduje się na stronie gł&oacute;wnej aplikacji http://kanbanboard.pl/</p>
+
+<p>Przycisk &quot;add new column&quot; jest widoczny.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;add new column&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Wpisz &quot;1&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;ok&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Powt&oacute;rz kroki 1-3 za kadym razem zwiększając numer kolumny o +1.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Zakończ dodawanie kolumn po dodaniu kolumny nr 102.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>Zostaną dodane kolumny o podanych numerycznych nazwach.</li>
+	<li>Kolimny będą dodane w liczbie 102 element&oacute;w.</li>
+	<li>Kolumny będą ułożone zgodnie z numeracją rosnąco w prawą stronę.</li>
+	<li>Kolumny będą miały wygląd zgodny z projektem przekazanym przez zleceniodawcę.</li>
+	<li>U dołu strony pojawi sie suwak umożliwiający przemieszczanie sie po tablicy.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

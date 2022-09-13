@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="27974" name="Sortowanie kart zadań - kolumna &quot;To Do&quot;">
+	<node_order><![CDATA[1008]]></node_order>
+	<externalid><![CDATA[9]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Weryfikacja sortowania notatek według własnej kolejności, w kolumnie &quot;To Do&quot;.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Użytkownik znajduje się na stronie g&oacute;łwnej aplikacji http://kanbanboard.pl/</p>
+
+<p>Na tablicy znajduje się kolumna &quot;To Do&quot;.</p>
+
+<p>W kolumnie &quot;To Do&quot;znajdują się minimum dwie karty zadań.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;add task&quot; w kolumnie &quot;To Do&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Wprowadź dowolny tekst w karcie zadania, np &quot;Zadanie 1&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;ok&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknik &quot;add task&quot; w kolumnie &quot;To Do&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Wprowadź dowolny tekst w karcie zadania, np &quot;Zadanie 2&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kloknij &quot;ok&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Przeciągnij kartę z zadaniem 2 nad kartę z zadaniem 1.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>W kolumnie &quot;To Do&quot; zostały utworzone dwie karty zadań.</li>
+	<li>Karty można przestawiać w dowolnej kolejności za pomocą &quot;drag&amp;drop&quot;.</li>
+	<li>Po zmianie kolejności kart zadania pozostają w nowoutworzonej konfiguracji.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

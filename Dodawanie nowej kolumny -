@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="27936" name="Dodawanie nowej kolumny - &quot;Add new column&quot;.">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[1]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Dodawanie nowej kolumny za pomocą kliknięcia &quot;Add new column&quot; z nadaniem własnej nazwy.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Użytkownik znajduje się na stronie g&oacute;łnej aplikacji http://kanbanboard.pl/</p>
+
+<p>Przycisk &quot;Add new column&quot; jest widoczny.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;Add new column&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Wpisz nazwę nowej kolumny.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij przycisk &quot;ok&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>Nowa kolumna zostanie utworzona.</li>
+	<li>Kolumna ma nazwę, kt&oacute;rą wpisałeś.</li>
+	<li>Kolumna została dodana po prawej stronie ekranu.</li>
+	<li>Nazwa kolumny jest czytelna.</li>
+	<li>Prawidłowa responsywność dostosowania szerokości kolumny do jej nazyw.</li>
+	<li>Nazwa kolumny znajduje się w całości w polu kolumny.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

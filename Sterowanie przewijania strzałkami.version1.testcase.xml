@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="28179" name="Sterowanie przewijania strzałkami">
+	<node_order><![CDATA[1030]]></node_order>
+	<externalid><![CDATA[31]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Weryfikacja możliwości sterowania przewijaniem strony za pomocą strzałek klawiatury g&oacute;ra/d&oacute;ł, prawo/lewo.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Użytkownik znajduje się na stronie gł&oacute;wniej aplikacji http://kanbanboard.pl/</p>
+
+<p>Na tablicy znajdują się kolumny.</p>
+
+<p>Na tablicy znajduje się przycisk &quot;add new column&quot;.</p>
+
+<p>W kolumanch znajdują się przyciski &quot;add task&quot;.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij przycisk &quot;add new column&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;ok&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Powt&oacute;rz kroki 1-2 trzy razy.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>Na tablicy zostaną utworzone cztery kolumny.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij przycisk &quot;add task&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;ok&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Powt&oacute;rz kroki 4-5 pięć razy.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>W kolunie zostanie utworzone sześć kart zadań.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij i przytrzymaj na klawieturzę strzałkę w prawo.</li>
+	<li>Kliknij i przytrzymaj na klawiaturze strzałkę w lewo.</li>
+	<li>Kliknij i przytrzymaj na klawieturzę strzałkę w d&oacute;ł.</li>
+	<li>Kliknij i przytrzymaj na klawieturzę strzałkę w g&oacute;rę.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>Korzystając ze strzałek kalwiatury można swobodnie przewijać stronę w prawo, lewo, g&oacute;rę i d&oacute;ł.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>

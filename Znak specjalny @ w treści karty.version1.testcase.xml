@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcases>
+<testcase internalid="28144" name="Znak specjalny @ w treści karty">
+	<node_order><![CDATA[1028]]></node_order>
+	<externalid><![CDATA[29]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Weryfikacja możliwości dodania znak&oacute;w specjalnych na przykładzie &quot;@&quot; w adresie email.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>Uzżytkownik znajduje się na stronie gł&oacute;wnej aplikacji http://kanbanboard.pl/</p>
+
+<p>Na tablicy znajdują się kolumny.</p>
+
+<p>W kolumnie jest widoczny przycisk &quot;add task&quot;.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;add task&quot; w kolumnie &quot;To Do&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Wprowadź teskt zawierający znak specjalny np &quot;@&quot; kontakt@kanbanboard.com</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Kliknij &quot;ok&quot;.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>W kolumnie &quot;To Do&quot; została utworzona nowa karta zadania.</li>
+	<li>W tekście karty znajduje się poprawnie wpisany adres email ze znakiem specjalnym &quot;@&quot;.</li>
+	<li>Tekst jest czytelny.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<ol>
+	<li>Powt&oacute;rz kroki 1-3 we wszystkich kolumanch.</li>
+</ol>
+]]></actions>
+	<expectedresults><![CDATA[<ol>
+	<li>W kolumnach zostają utworzone nowe karty zadań.</li>
+	<li>W tekście kart znajdują się poprawnie wpisane adresy email ze znakiem specjalnym &quot;@&quot;.</li>
+	<li>Tekst&nbsp; we wszystkich kartach jest czytelny.</li>
+</ol>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testcases>
